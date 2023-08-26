@@ -1,0 +1,106 @@
+Patuturavi2233
+
+iamusername; raviawsdemo
+password:ravi@967667119
+
+id025845121926
+
+
+
+
+
+User: arn:aws:iam::025845121926:user/raviawsdemo
+Service: iam
+Action: ListUsers
+On resource(s): arn:aws:iam::025845121926:user/
+Context: no identity-based policy allows the iam:ListUsers action
+
+
+User: arn:aws:iam::025845121926:user/raviawsdemo
+Service: iam
+Action: GetAccountSummary
+On resource(s): *
+Context: no identity-based policy allows the iam:GetAccountSummary action
+
+
+
+
+
+
+cmd
+aws version 
+
+username:   AKIAQMBD5IODDYJUG2TW
+passwprd: baTREqsRe+EyRg1LdSn9hrfQ+UCWxBq1JYqBBZMf
+
+intreview questions
+--------------------
+
+what is diffence beetween IAM roles and polices
+-----------------------------------------------
+1.policies
+------
+policy is nothing but a set of permissions whitch we will any user or a role
+
+2.roles
+-----
+roles is nothing but in more you want get communication beetween multyple services with in aws with IAM
+
+
+3.what is difrence beetween version and life cycle
+
+4.i want to get a low price storage long time
+an:life cycle
+
+
+
+5. what are the global service 
+------------------------------
+S3 AND IAM   both are global services rest of the services are the  regian constrians
+
+
+what is difrence beetween NACL security group
+--------------------------------------------
+
+NACL is subnet level firwells setup
+you can allow $ deny
+
+security grupe-- servers level or resources level setup
+we can only ALLOW
+
+
+how can we find you the public and private tables 
+------------------------------------------------
+
+we can find out route tables 
+
+
+
+VPC DASHBORD
+----------------
+
+1. how to create VPC
+
+
+
+2.how to create subnets
+
+
+3.how to create internet gateway
+
+
+
+4.how to create rout table
+
+5. NACL---------------------- who come who not come this server-
+ create: public $ private 
+  --- subnet association 
+     --inbound and out bound
+        -- Allow and deny
+            -all trafic----0.0.0/0
+6.security grupe---------------who come who not come we can anable this
+ create: public-SG $ private SG
+      -- subnet association 
+        ---- inbound 
+            -- ALLOW
+            all trafic-0.0.0/0
